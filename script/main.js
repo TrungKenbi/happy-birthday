@@ -1,3 +1,13 @@
+var popupsound = document.getElementById("notifypop");
+
+document.body.addEventListener("mousemove", function () {
+  popupsound.play();
+})
+
+function autoNotify() {
+   popupsound.play();
+}
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
